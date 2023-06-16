@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'page.MyMiddleware.StatisticalMiddleware',  # 在线人数统计的中间件
 ]
 
-ROOT_URLCONF = 'Fengfengblog.urls'
+ROOT_URLCONF = 'gitdwebsite.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Fengfengblog.wsgi.application'
+WSGI_APPLICATION = 'gitdwebsite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
